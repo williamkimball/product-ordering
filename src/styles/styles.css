@@ -1,0 +1,75 @@
+/* Section Styles */
+
+  /* Navbar */
+.main-nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    margin-left: 0%;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.nav {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    transition: all .5s;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    color: #f2f2f2;
+}
+
+.nav a {
+    color: #f2f2f2;
+}
+
+.nav a:hover {
+    background: #ddd;
+    color: black;
+
+}
+
+.nav #home {
+    margin-right: 30px;
+}
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+
+
+
+/* .main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav .name {
+    display: none;
+  }
+
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: white
+  } */
