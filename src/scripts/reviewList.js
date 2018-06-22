@@ -1,6 +1,6 @@
 const reviewData = require ("./reviewData");
 const review = require ("./review");
 
-console.log(review(reviewData));
+console.log(reviewData);
 
-module.exports = reviewList
+// module.exports = reviewList
