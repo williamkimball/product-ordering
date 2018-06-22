@@ -1,4 +1,5 @@
 const Nav = require ("./nav");
-const ProductList = require ("./productList")
+const Product = require ("./product")
 
 Nav.createNav();
+Product();

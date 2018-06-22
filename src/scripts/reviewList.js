@@ -1,6 +1,12 @@
-const reviewData = require ("./reviewData");
-const review = require ("./review");
+const reviewData = require("./reviewData");
+const review = require("./review");
 
-console.log(reviewData);
 
-// module.exports = reviewList
+
+let reviewList = review(reviewData);
+
+// for (key in reviewList) {
+//     console.log(reviewList[key])
+// }
+
+module.exports = reviewList;

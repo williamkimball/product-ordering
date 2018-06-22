@@ -12,7 +12,6 @@ let createLi = function () {
 ;
 
 let navName = createLi();
-console.log(navName)
 navName.className = "name";
 navName.textContent = "Betsy";
 
